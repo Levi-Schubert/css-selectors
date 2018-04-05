@@ -1,0 +1,59 @@
+header{
+    border-style:solid;
+    border-color: goldenrod;
+    border-width:1px;
+}
+
+header ul{
+    display: inline;
+    list-style-type: none;
+}
+
+header ul li{
+    display: inline;
+    padding-left:10px;
+    padding-right:10px;
+}
+
+.disabled{
+    color:grey;
+}
+
+.disabled a{
+    color: purple;
+}
+
+.active{
+    color:yellow;
+}
+
+.parent div div{
+    color:red;
+}
+
+.parent div h4 + div{
+    color:blue;
+}
+
+.parent div div + h4{
+    background-color: red;
+}
+
+.parent div h4 + div + h4 {
+    background-color: blue;
+}
+
+.grandparent > h4{
+    border-style:solid;
+    border-width: 1px;
+    border-radius: 15px;
+}
+
+.promo {
+    font-weight: bold;
+    color:gold;
+}
+
+span input[type=text]{
+    height:25px;
+}
