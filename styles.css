@@ -1,3 +1,4 @@
+
 header{
     border-style:solid;
     border-color: goldenrod;
@@ -27,6 +28,8 @@ header ul li{
     color:yellow;
 }
 
+/* beginning of messy child and sibling selectors */
+
 .parent div div{
     color:red;
 }
@@ -42,6 +45,8 @@ header ul li{
 .parent div h4 + div + h4 {
     background-color: blue;
 }
+
+/* end of messy child and sibling selectors */
 
 .grandparent > h4{
     border-style:solid;
